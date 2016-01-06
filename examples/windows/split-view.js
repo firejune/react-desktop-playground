@@ -11,7 +11,7 @@ export default class extends Component {
         chrome
         theme={this.props.theme}
         storage={localStorage}
-        style={{ width: '800px', height: '480px' }}
+        style={{ width: '740px', height: '480px' }}
       >
         <TitleBar title="My Windows Application" controls/>
 

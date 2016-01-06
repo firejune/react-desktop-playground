@@ -3,9 +3,6 @@ import ReactDOM from 'react-dom'
 import examples from 'examples';
 import Sidebar from './ui/sidebar/sidebar';
 
-//import {Window1 as Window1OSX, Window2 as Window2OSX} from './example.osx'
-//import {Window1 as Window1Win, Window2 as Window2Win} from './example.win'
-
 const styles = {
   container: {
     width: '100%',
@@ -97,10 +94,12 @@ class Playground extends Component {
   };
 
   render() {
-    let example;
+    let example = null;
     if (this.state.example) {
       const Example = examples['/examples/' + this.state.example];
-      example = <Example/>;
+      if (Example !== undefined) {
+        example = <Example/>;        
+      }
     }
 
     return (

@@ -8,7 +8,7 @@ export default class extends Component {
         color="#cc7f29"
         theme="dark"
         chrome
-        style={{ width: '800px', height: '480px' }}
+        style={{ width: '740px', height: '480px' }}
       >
         <TitleBar title="My Windows Application" controls/>
       </Window>
