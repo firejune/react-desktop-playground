@@ -11,7 +11,7 @@ import {
   Form,
   Label,
   Window
-} from './src/osx';
+} from '../react-desktop/osx';
 
 
 export class Window1 extends Component {

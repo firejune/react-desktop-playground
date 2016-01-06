@@ -14,7 +14,7 @@ import {
   ListView,
   Grid,
   MasterDetails
-} from './src/Windows';
+} from '../react-desktop/Windows';
 
 import * as Icons from './Windows/Assets/Icons';
 
@@ -56,7 +56,7 @@ export class Window2 extends Component {
             theme="light"
             background="#ffffff"
             style={{
-              backgroundImage: 'url(picture.jpg)',
+              backgroundImage: 'url(./src/picture.jpg)',
               backgroundSize: 'cover',
               backgroundPosition: 'bottom center'
             }}
