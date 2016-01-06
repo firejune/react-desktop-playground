@@ -1,0 +1,52 @@
+{
+  "name": "react-desktop",
+  "author": "Gabriel Bull",
+  "version": "0.1.48",
+  "description": "React UI Components for OS X El Capitan and Windows 10",
+  "main": "./index.js",
+  "keywords": [
+    "react",
+    "react-component",
+    "electron",
+    "node-webkit",
+    "native",
+    "desktop",
+    "ui",
+    "user",
+    "interface",
+    "component",
+    "os x",
+    "windows"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gabrielbull/react-desktop.git"
+  },
+  "dependencies": {
+    "radium": "^0.14.3"
+  },
+  "peerDependencies": {
+    "react": "~0.14",
+    "react-dom": "~0.14"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babel-core": "^5.8.25",
+    "babel-eslint": "^4.1.3",
+    "babel-loader": "^5.3.2",
+    "html-webpack-plugin": "^1.6.2",
+    "jsdom": "^7.0.2",
+    "react": "^0.14.1",
+    "react-color": "^1.2.1",
+    "react-dom": "^0.14.1",
+    "react-hot-loader": "^1.3.0",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.0"
+  },
+  "scripts": {
+    "prebuild": "rm -rf lib",
+    "build": "babel --stage 0 ./src --out-dir ./lib",
+    "dev": "webpack-dev-server --config ./webpack.config.js --colors --inline --port 3000"
+  }
+}
