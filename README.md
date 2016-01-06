@@ -1,2 +1,1 @@
-# react-desktop-playground
-React Desktop Playground
+# React Desktop Playground
