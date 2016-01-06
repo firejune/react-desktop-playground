@@ -1,8 +1,8 @@
 {
-  "name": "react-desktop",
-  "author": "Gabriel Bull",
-  "version": "0.1.48",
-  "description": "React UI Components for OS X El Capitan and Windows 10",
+  "name": "react-desktop-playground",
+  "author": "Joon Kyoung",
+  "version": "0.1.1",
+  "description": "React Desktop Playground",
   "main": "./index.js",
   "keywords": [
     "react",
@@ -15,21 +15,19 @@
     "user",
     "interface",
     "component",
-    "os x",
+    "osx",
     "windows"
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gabrielbull/react-desktop.git"
+    "url": "https://github.com/firejune/react-desktop-playground.git"
   },
   "dependencies": {
-    "radium": "^0.14.3"
-  },
-  "peerDependencies": {
+    "radium": "^0.14.3",
     "react": "~0.14",
-    "react-dom": "~0.14",
     "react-color": "^1.2.1",
+    "react-dom": "~0.14",
     "react-hot-loader": "^1.3.0"
   },
   "devDependencies": {
