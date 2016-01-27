@@ -11,7 +11,7 @@ export default class extends Component {
         style={{ width: '465px', height: 'auto' }}
       >
         <TitleBar title="My Mac Application" controls/>
-        
+
         <Box className="box">
           <Form onSubmit={() => { alert('form submitted'); }}>
             <Label color="red" align="center">
